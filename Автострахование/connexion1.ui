@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>679</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: purple;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="2" colspan="2">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../Downloads/cars.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>секретный код для администратора....</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: #3498db;
+    border-style: outset;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: beige;
+    font: bold 16px;
+    min-width: 10em;
+    padding: 12px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string notr="true">Введите свое имя....</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3" colspan="3">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>286</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="6" rowspan="2" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: #3498db;
+    border-style: outset;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: beige;
+    font: bold 16px;
+    min-width: 10em;
+    padding: 12px;
+</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Введите свой пароль.....</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" rowspan="2" colspan="4">
+    <widget class="QLabel" name="label_4">
+     <property name="styleSheet">
+      <string notr="true">
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: #f7f7f7;
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="4">
+    <widget class="QRadioButton" name="radioButton_5">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+ background-color: #4CAF50;
+  color: #FFFFFF;
+  border: 1px solid #3E8E41;
+  text-align: center; /* Alignement horizontal */
+  padding: 3px; /* Espacement interne */</string>
+     </property>
+     <property name="text">
+      <string>Для удаления</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="5" colspan="2">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>97</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="7">
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+ background-color: #4CAF50;
+  color: #FFFFFF;
+  border: 1px solid #3E8E41;
+  text-align: center; /* Alignement horizontal */
+  padding: 3px; /* Espacement interne */</string>
+     </property>
+     <property name="text">
+      <string>Доступ для всех</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Поиск...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QRadioButton" name="radioButton_6">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+ background-color: #4CAF50;
+  color: #FFFFFF;
+  border: 1px solid #3E8E41;
+  text-align: center; /* Alignement horizontal */
+  padding: 3px; /* Espacement interne */</string>
+     </property>
+     <property name="text">
+      <string>Для поиска</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="4">
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+ background-color: #4CAF50;
+  color: #FFFFFF;
+  border: 1px solid #3E8E41;
+  text-align: center; /* Alignement horizontal */
+  padding: 3px; /* Espacement interne */</string>
+     </property>
+     <property name="text">
+      <string>для добавления</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="5">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>82</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="7">
+    <widget class="QRadioButton" name="radioButton">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+ background-color: #4CAF50;
+  color: #FFFFFF;
+  border: 1px solid #3E8E41;
+  text-align: center; /* Alignement horizontal */
+  padding: 3px; /* Espacement interne */</string>
+     </property>
+     <property name="text">
+      <string>Регистрация для новых клиентов</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="8">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+background-color:#3498db;
+th {
+  color: black;
+}
+
+td {
+  color: white;
+}
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QComboBox" name="table_combo">
+     <property name="styleSheet">
+      <string notr="true">font: 8pt &quot;MS Shell Dlg 2&quot;;
+ background-color: #4CAF50;
+  color: #FFFFFF;
+  border: 1px solid #3E8E41;
+  text-align: center; /* Alignement horizontal */
+  padding: 1px; /* Espacement interne */</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1" rowspan="2" colspan="7">
+    <widget class="QListWidget" name="listWidget">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: #f7f7f7; /* Couleur de fond */
+border: 1px solid #ddd; /* Bordure */
+ border-radius: 5px; /* Coins arrondis */
+ padding: 10px; /* Espace intérieur */
+ 
+ </string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
